@@ -1,0 +1,64 @@
+$navbar-default-bg: #edeaef;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo {
+	float:left;
+	font-size: 1.7em;
+	color: #02421e;
+	letter-spacing: -1px;
+}
+
+#logo:hover {
+	color: #01210f;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('Travel-Blog.jpg');
+	background-size: cover;
+	height: 550px;
+
+}
+
+.main-image {
+	width: auto;
+	height: 500px;
+	background-image: asset-url('coffee.jpg');
+	background-size: cover;
+}
+
+#header-title {
+	text-align: center;
+	margin-top: 170px;
+	color: #edeaef;
+	margin-bottom: 80px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.footer {
+	margin-top: 100px;
+	padding-top: 5px;
+	border-top: 1px solid #d5d2d8;
+}
+
+.footer small {
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	text-decoration: none;
+	list-style: none;
+}
+
+.footer ul li {
+	float: left;
+	margin-left: 15px;
+}

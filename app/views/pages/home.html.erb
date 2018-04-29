@@ -2,19 +2,14 @@
 <head>
 	<title>Alpha Blog - Home</title>
 </head>
-<nav>
-	<div style="height: 30px; background: #E0FFFF;">
-		<ul class="navigation" style="margin-top: -10px">
-			<li style="display: inline; margin-right: 10px; padding-top: 5px;">
-				<%= link_to 'Home', root_path %>
-			</li>
-			<li style="display: inline;">
-				<%= link_to 'About', about_path %>
-			</li>
-		</ul>
-	</div>
-</nav>
 <body>
-	<h1 style="text-align: center;">Alpha Blog - Homepage</h1>
+<!-- 	<div class="main-image center">
+	  <h1>Welcome to Alpha Blog!</h1>
+	  <%= link_to "Sign Up Now!", "#", class: "btn btn-primary btn-lg" %>
+	</div> -->
+	<div class="center jumbotron">
+	  <h1 id="header-title">Welcome to Alpha Blog!</h1>
+	  <%= link_to "Sign Up Now!", "#", class: "btn btn-primary btn-lg" %>
+	</div>
 </body>
 </html>
