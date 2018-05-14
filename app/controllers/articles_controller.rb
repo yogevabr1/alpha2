@@ -50,7 +50,7 @@ end
 
 private 
 def article_params
-	params.require(:article).permit(:title, :description) # top level key, permit the desired values to use.
+	params.require(:article).permit(:title, :description, category_ids: []) # top level key, permit the desired values to use.
 end
 def set_article
 	@article = Article.find(params[:id])
