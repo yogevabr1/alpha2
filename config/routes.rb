@@ -8,6 +8,7 @@ Rails.application.routes.draw do
  	resources :users, except: [:new]
 
 	resources :articles # new article path for everything
+	resources :categories, except: [:destroy]
 
 	get 'login', to: 'sessions#new'
 	post 'login', to: 'sessions#create'
